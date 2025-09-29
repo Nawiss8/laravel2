@@ -3,7 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\User;
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Character; // ⚡️ important : importer ton modèle
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -13,8 +13,14 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
+        /*
+        // Création d'un personnage
+        $character = new Character();
+        $character->name = 'Goku';
+        $character->picture = '';
+        $character->save();*/
 
+        // Exemple d’utilisateur
         User::factory()->create([
             'name' => 'Test User',
             'email' => 'test@example.com',
