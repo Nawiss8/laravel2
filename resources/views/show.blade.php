@@ -8,13 +8,13 @@
 </head>
 <body>
 <ul>
-    <li>{{ $student->id }}</li>
-    <li>{{ $student->name }}</li>
-    <li>{{ $student->price }}</li>
-    <li>{{ $student->image }}</li>
-    <li>{{ $student->description }}</li>
-    <li>{{ $student->created_at }}</li>
-    <li>{{ $student->updated_at }}</li>
+    <li>{{ $chararcterpop->id }}</li>
+    <li>{{ $chararcterpop->name }}</li>
+    <li>{{ $chararcterpop->price }}</li>
+    <li>{{ $chararcterpop->image }}</li>
+    <li>{{ $chararcterpop->description }}</li>
+    <li>{{ $chararcterpop->created_at }}</li>
+    <li>{{ $chararcterpop->updated_at }}</li>
 </ul>
 </body>
 </html>

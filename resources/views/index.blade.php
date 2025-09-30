@@ -30,12 +30,12 @@
             </tr>
         </thead>
         <tbody>
-            @foreach ($students as $student)
+            @foreach ($chararcterpop as $chararcterpop)
                 <tr>
-                    <td>{{ $student->id }}</td>
-                    <td>{{ $student->name }}</td>
-                    <td>{{ number_format($student->price / 100, 2) }} €</td>
-                    <td><a href="/students/{{ $student->id }}">+ details</a></td>
+                    <td>{{ $chararcterpop->id }}</td>
+                    <td>{{ $chararcterpop->name }}</td>
+                    <td>{{ number_format($chararcterpop->price / 100, 2) }} €</td>
+                    <td><a href="/chararcterpop/{{ $characterpop->id }}">+ details</a></td>
                 </tr>
             @endforeach
         </tbody>
